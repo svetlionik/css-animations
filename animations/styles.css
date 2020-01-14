@@ -6,6 +6,7 @@
 
 body {
     font: 16px/1.5 Georgia, serif;
+    overflow: hidden;
 }
 
 header {
@@ -50,9 +51,9 @@ header h1 {
 
 header section {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -50%);
     text-align: center;
     z-index: 10;
 }
